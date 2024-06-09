@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+   
+}
+.container{
+    display: flex block;
+    /* background-color: rgb(196, 190, 190); */
+}
+
+
+#leftColumn {
+    padding-left: 6vw;
+    padding-top: 15vh;
+    padding-bottom: 0%;
+    width: 44vw;
+    height: 85vh;
+    background-color: rgb(255, 255, 255);
+  
+}
+
+#rightColumn{
+    width:50vw;
+    height: 99vh;
+    padding-bottom: 0%;
+}
+
+#hiThere{
+    /* position:relative;
+    top: 2vh; */
+    font-size: 3vw;
+    color: black;
+    font-weight: bold;
+   
+}
+
+#iam{
+    font-size: 6vw;
+    color: #8a817c;
+    font-weight: bolder;
+    font-family: 'Archivo Black', sans-serif;
+    padding: 0px;
+    margin: 0px;
+   
+}
+
+b{
+    font-size: 6vw;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-family: 'Archivo Black', sans-serif;
+    padding:0px;
+    margin:0px;
+}
+
+#fullName{
+    padding-right: 3vw;
+    margin-top: 0px;
+}
+
+#intro{
+    padding-top: 5vh;
+    padding-right:7vw;
+    font-size: 0.9vw;
+    font-weight: 500;
+    text-align: justify;
+    width:39vw;
+}
+
+#role{
+    padding: 2px;
+    border: 1.7px;
+    border-style: solid;
+    align-items: center;
+    width: 13vw;
+    
+    border-radius: 3px;
+    font-size: 1.2vw;
+    font-weight: 900;
+    text-align: center;
+    /* font-variant: small-caps; */
+}
+
+a{
+    position: relative;
+    top: 7vh;
+    text-decoration: none;
+    /* border: 2px;
+    border-style: solid; */
+    
+    padding: 8px;
+    background-color:rgb(252, 161, 24);
+    border-radius: 25px;
+    font-size: 1.3vw;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(70, 68, 68);
+   
+ 
+}
+a:hover{
+   color:black
+}
+
+img{
+    /* border: 1px; */
+    /* border-radius: 10%; */
+    /* border-style: solid; */
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    width:50vw;
+    height:99.5vh;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}

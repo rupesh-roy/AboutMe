@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#contactContainer {
+    display: flex;
+}
+#contactLeftDiv {
+    display: flex;
+    flex-direction: column;
+    width: 18vw;
+    height: 100vh;
+}
+
+#contactRightDiv {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+}
+
+#contactLeftDiv img {
+    width: 18vw;
+    height: 35vh;
+    transform: scaleX(-1);
+    padding: 0;
+}
+
+#contactHeading {
+    text-align: center;
+    border: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 6vw;
+    margin: 30px;
+    text-transform: uppercase;
+}
+#contactRightDiv p {
+    padding-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    
+}
+#contactRightDiv h3 {
+    font-size: 2vw;
+    margin-left: 50px;
+    color: rgb(80, 77, 77);
+}
+#contactRightDiv b{
+    color: black;
+}
+
+#navbar {
+    display: flex;
+    background-color: rgb(32, 31, 31);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    /* text-justify: ; */
+    width: 18vw;
+}
+ nav {
+     background-color: rgb(32, 31, 31);
+     /* overflow: hidden; */
+     width: 20vh;
+     /* Set the width of the navbar to 40vh */
+     height: 30vh;
+     /* Set the height of the navbar to 100vh to take the full viewport height */
+     display: flex;
+     flex-direction: column;
+     /* Display the navbar items in a column */
+
+ }
+
+ #navbar nav a {
+     color: #fc9003;
+     text-align: center;
+     padding: 14px 16px;
+     text-decoration: none;
+
+     /* border-bottom: 1px solid #fc9003; */
+     /* Add a border between navbar items for separation */
+ }
+
+ #navbar nav a:last-child {
+     border-bottom: none;
+     /* Remove the border from the last navbar item to avoid an extra line */
+ }
+
+ #navbar nav a:hover {
+     background-color: #fc9003;
+     color: black;
+     border-radius: 30px;
+     font-weight: 500;
+ }
+
+ @media screen and (max-width: 600px) {
+     nav {
+         width: 100%;
+         /* Set the width to 100% on smaller screens */
+     }
+ }
+ #contactImages{
+    display: flex;
+    margin-top: 10vh;
+    
+    width:100%;
+  
+    font-size: 20px;
+    /* font-weight: 500; */
+    justify-content: space-evenly;
+    
+ }
+ 
+ #contactImages img{
+    width: 9vw;
+    /* height: 12vw; */
+  
+   border:1px;
+   border-style: solid;
+   border-radius: 25px;
+   
+ }
+ #email{
+   
+    display: flex;
+   
+    align-items: center;
+    
+
+ }
+ #gmailId{
+    position: relative;
+    right:20px;
+    
+   
+ }
+ #mobileNo{
+    position: relative;
+    right: 20px;
+ }
+ 
+ #phoneCall{
+  
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    align-content: center;
+    
+ }
+ #phoneCall span{
+    color:rgb(110, 107, 107);
+ }
+ 
